@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "Bai JamJuree SemiBold";
+    src: url("fonts/BaiJamjuree-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Bai JamJuree Regular";
+    src: url("fonts/BaiJamjuree-Regular.ttf");
+}
+
+
+header{
+    align-items: center;
+    background-image: url("images/bg-header-desktop.png");
+    background-size: cover;
+    height: 363px;
+
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    margin-top: 100px;
+}
+
+.download{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.download p{
+    font-size: 1.3em;
+}
+
+.header-p{
+    font-size: 1.15em;
+}
+
+.download-down-p{
+    font-size: 1.3em;
+}
+
+h1{
+    font-family: "Bai JamJuree SemiBold";
+    font-size: 2.9em;
+    text-align: center;
+    margin: 0 auto 30px;
+    color: hsl(210, 10%, 33%);
+}
+
+p{
+    margin: 20px auto; 
+    text-align: center;
+    font-family: "Bai JamJuree Regular";
+    color: hsl(201, 11%, 66%);
+    line-height: 30px;
+}
+
+.buttons{
+    text-align: center;
+    margin: 40px auto 100px;
+}
+
+button{
+    padding: 10px 35px;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    font-family: "Bai JamJuree Regular";
+    font-size: 1.1em;
+    color: #fff;
+}
+
+.ios{
+    background: #26bba5;
+    border-bottom: 3px solid #229e84;
+}
+
+.mac{
+    background: #6274fc;
+    border-bottom: 3px solid #5261d8;
+}
+
+h2{
+    font-size: 2.1em;
+    font-family: "Bai JamJuree SemiBold";
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+    margin: 0 auto; 
+}
+
+article{
+    margin-top: 60px;
+}
+
+.article-one{
+    width: 50%;
+    margin: 150px auto 0;
+}
+
+.article-two{
+    text-align: left;
+}
+
+.content{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.image{
+    width: auto;
+}
+
+.image-computer{
+    margin: 50px 0 0 -40px;
+    display: inline-block;
+    width: 49%;
+}
+
+h3{
+    font-family: "Bai JamJuree SemiBold";
+    color: hsl(210, 10%, 33%);
+    font-size: 1.8em;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h4{
+    font-family: "Bai JamJuree SemiBold";
+    color: hsl(210, 10%, 33%);
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+.block{
+    text-align: left;
+    margin: 50px 0;
+    padding-left: 90px;
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.text{
+    width: 60%;
+    vertical-align: middle;
+}
+
+.description{
+    text-align: left;
+    font-size: 1em;
+    line-height: 30px;
+    font-family: "Bai JamJuree Regular";
+}
+
+.article-three{
+    width: 60%;
+    margin: 150px auto;
+}
+
+.article-three p{
+    font-size: 1.15em; 
+    width: 80%;
+}
+
+.image-devices{
+    margin-top: 100px;
+}
+
+.article-four{
+    width: 100%; 
+    margin: 150px auto;
+}
+
+.article-four p{
+    font-size: 1.15em; 
+    width: 80%;
+}
+
+.variants{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.variant{
+    width: 33%;
+    height: 250px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.variant .description{
+    width: 75%;
+    font-size: 1em;
+    line-height: 30px;
+    text-align: center;
+    margin: 20px auto 0;
+    color: hsl(201, 11%, 66%);
+}
+
+.variant img{
+    height: 40px;
+}
+h6{
+    margin: 50px auto 0;
+    font-family: "Bai JamJuree SemiBold";
+    font-size: 30px;
+    color: hsl(210, 10%, 33%);
+}
+
+.partners{
+    width: 100%;
+    text-align: center;
+}
+
+.partner{
+    display: inline-block;
+    margin: 0 40px;
+    vertical-align: top;
+}
+
+footer{
+    width: 100%;
+    background-color: #f5f6f8;
+    height: 150px;
+    line-height: 150px;
+}
+
+.copyrigth{
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+    width: 25%;
+    text-align: center;
+}
+
+.copyrigth img{
+    height: 50px;
+}
+
+.links{
+    width: 50%;
+    display: inline-block;
+    height: 100px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+span{
+    width: 16%;
+    display: inline-block;
+    padding: 0 50px;
+    line-height: 40px;
+    vertical-align: middle;
+    font-family: "Bai JamJuree Regular";
+    color: hsl(210, 10%, 33%);
+}
+
+.social{
+    display: inline-block;
+    width: 24%;
+    height: 150px;
+    line-height: 150px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.social img{
+    margin: 0 7px;
+}
+
+@media screen and (max-width: 375px){
+    header{
+        align-items: center;
+        background-image: url("images/bg-header-mobile.png");
+        background-size: cover;
+        height: 363px;
+    }
+
+    .download{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .download p{
+        font-size: 1.1em;
+    }
+
+    h1{
+        font-size: 2.1em;
+        text-align: center;
+    }
+
+    .header-p {
+        font-size: 1em;
+    }
+
+    button {
+        margin: 10px auto;
+        height: 45px;
+        padding: 10px 55px;
+        border-radius: 30px;
+        font-size: 1em;
+    }
+
+    h2{
+        font-size: 1.7em;
+    }
+
+    .article-one{
+        width: 80%;
+    }
+
+    .article-two{
+        text-align: center;
+    }
+
+    .image-computer{
+        margin: 50px auto;
+        display: block;
+        width: 80%;
+    }
+
+    .block{
+        text-align: center;
+        margin: 50px auto;
+        padding: 0;
+        width: 80%;
+        display: block;
+    }
+
+    .text{
+        width: 100%;
+        vertical-align: middle;
+    }
+
+    .description{
+        text-align: center;
+        margin: 5px auto;
+        font-size: 0.9em;
+        line-height: 25px;
+    }
+
+    .article-three{
+        width: 80%;
+        margin: 150px auto;
+    }
+    
+    .article-three p{
+        font-size: 1em; 
+        width: 100%;
+    }
+
+    .image-devices{
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .article-four{
+        width: 80%;
+        margin: 100px auto 0;
+        text-align: center;
+    }
+
+    .article-four p{
+        font-size: 0.9em;
+        line-height: 25px;
+    }
+
+    .variants{
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .variant{
+        display: block;
+        width: 100%;
+        padding: 20px 0;
+        height: auto;
+        text-align: center;
+        margin: 20px auto 0;
+    }
+
+    .variant .description{
+        width: 100%;
+        font-size: 0.85em;
+        line-height: 25px;
+    }
+
+    .partner{
+        display: block;
+        margin: 60px auto;
+    }
+
+    .download-down-p{
+        font-size: 1.2em;
+    }
+
+    footer{
+        width: 100%;
+        line-height: normal;
+        height: auto;
+    }
+
+    .copyrigth{
+        display: block;
+        width: 25%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .copyrigth img{
+        margin: 40px auto;
+    }
+
+    .links{
+        width: 80%;
+        display: block;
+        line-height: 30px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .links span{
+        width: 100%;
+        text-align: center;
+        display: block;
+        padding: 0;
+    }
+
+    .social{
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .social img{
+        margin: 0 20px;
+    }
+}
