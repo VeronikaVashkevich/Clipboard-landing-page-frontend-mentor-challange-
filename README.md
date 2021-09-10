@@ -1,3 +1,7 @@
+# Complited:
+
+https://veronikavashkevich.github.io/Clipboard-landing-page-frontend-mentor-challange-/
+
 # Frontend Mentor - Clipboard landing page
 
 ![Design preview for the Clipboard landing page coding challenge](./design/desktop-preview.jpg)
